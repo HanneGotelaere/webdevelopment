@@ -1,0 +1,46 @@
+h1
+{
+    font-family: Helvetica;
+    font-size: 80xp;
+    color: ##EDF2F4; #EDF2F4;
+}
+h2
+{
+    font-family: Helvetica;
+    font-size: 40 xp;
+    color: ##EDF2F4; #EDF2F4;
+}
+.#EDF2F4{
+    color: ##EDF2F4; #EDF2F4;
+
+header, footer, education;
+    font-size: 30 xp;
+
+{
+link {
+    link: red;
+    #EF233C;
+}
+
+header {
+    text-decoration-color: gray;
+    #8D99AE;
+}
+
+footer {
+    background-color: #2B2D42;
+    #2B2D42;
+}
+
+education {
+    background-color: #8D99AE;
+    #8D99AE;
+}
+
+<head>
+ <style type= "text=css">
+    h1 {font-family: Helvetica; font-size: 80xp; color: ##EDF2F4;}
+    h2 {font-family: Helvetica; font-size: 40 xp; color: ##EDF2F4;}
+    footer {background-color: #2B2D42;}
+ </style>
+</head>
