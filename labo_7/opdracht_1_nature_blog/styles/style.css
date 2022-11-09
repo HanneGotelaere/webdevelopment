@@ -1,0 +1,18 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    background-image: url(../images/header.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+}
+header h1{
+    color: #EDF2F4;
+}
+h1, h2, h3, p, a {
+    font-family: Helvetica, sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
