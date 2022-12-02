@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -46,6 +46,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_8_flexbox\flex\styles" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_8\lorem_ipsum_extra_space" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_8\lorem_ipsum" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_8\cocktail_bar" />
@@ -82,7 +83,9 @@
       <workItem from="1669125265294" duration="5860000" />
       <workItem from="1669213715485" duration="457000" />
       <workItem from="1669227756054" duration="1175000" />
-      <workItem from="1669294702646" duration="11709000" />
+      <workItem from="1669294702646" duration="12023000" />
+      <workItem from="1669797798885" duration="3146000" />
+      <workItem from="1670010001081" duration="2056000" />
     </task>
     <servers />
   </component>
