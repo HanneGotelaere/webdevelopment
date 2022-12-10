@@ -30,27 +30,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Gotelaere/OneDrive - Hogeschool VIVES/2022-2023/Web Development/Semester 1/Github/webdevelopment/labo_10/bootstrap/bootstrap_nieuwe_personal_homepage/style",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_10\bootstrap\bootstrap_nieuwe_personal_homepage\style" />
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_10\bootstrap" />
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_10\bootstrap_nieuwe_personal_homepage" />
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_10\bootstrap_nieuwe_personal_homepage\images" />
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_10\bootstrap_compositie\styles" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_10\bootstrap_oefening_2" />
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_10\bootstrap_oefening_1" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_8_flexbox\flex\styles" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_8\lorem_ipsum_extra_space" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_8\lorem_ipsum" />
-      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_8\cocktail_bar" />
-      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_8\flex" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -87,6 +95,8 @@
       <workItem from="1669797798885" duration="3146000" />
       <workItem from="1670010001081" duration="2056000" />
       <workItem from="1670012190566" duration="34000" />
+      <workItem from="1670400818863" duration="5526000" />
+      <workItem from="1670678408312" duration="9799000" />
     </task>
     <servers />
   </component>

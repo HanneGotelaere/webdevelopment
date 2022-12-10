@@ -1,0 +1,11 @@
+.gray
+{
+    background-color: gray;
+}
+
+div {
+    height: 170px;
+    border: solid white 8px;
+    box-sizing: border-box;
+    background-color: gray;
+}
