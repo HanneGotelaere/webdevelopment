@@ -1,0 +1,47 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(../images/header.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+header h1{
+    color: #EDF2F4;
+}
+
+h1, h2 {
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+section{
+    color: blue;
+    text-decoration: underline;
+}
+
+footer{
+    color: #1aef1a;
+}
+
+main{
+    background-color: lightgray;
+}
+
+footer{
+    background-color: #525151;
+}
+
+div{
+    color: black;
+}

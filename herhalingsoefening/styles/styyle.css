@@ -1,0 +1,147 @@
+body{
+    margin-left: 327px;
+    margin-right: 327px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.lijn{
+    border-bottom: 1px solid #ebe8e8; /* breedte, stijl en kleur van border*/
+    width: 100%; /*maakt dat de border over de volledige breedte van de pagina gaat*/
+    position: absolute; /*plaatst de rand aan de onderkant van de pagina*/
+    top: 0;/*plaatst de rand aan de bovenkant van de pagina*/
+    left: 0; /*plaatst de rand aan de linkerkant van de pagina*/
+
+}
+.kitchn{
+    height: 50px; /*hoogte van de foto*/
+    margin-left: 327px;
+}
+
+.navigatie{
+    display: grid;
+    grid-template-columns: repeat(7,auto);
+}
+
+.navigatie .menu{
+    margin-top: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-right: solid #ebe8e8;
+    text-transform: uppercase;
+}
+
+.laatst{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top:15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    padding-left: -200px;
+}
+
+.kitchn .navigatie .menu{
+    width: auto;
+}
+
+main{
+    display: flex;
+    align-items: center; /* vertical center*/
+    justify-content: center; /* horizontal center*/
+    background-image: url("../images/headerimage.jpg");
+    height: 500px;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #8D99AE;
+    margin-top: 15px;
+}
+
+h1{
+    font-size: 2.5em;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+    margin-top:50px;
+}
+
+h2{
+    font-size: 150%;
+}
+
+aside{
+    width: 327px;
+}
+
+.smalltitle {
+    border-top: 1px solid #ebe8e8;
+    width: 500px;
+    color: #ff4d56;
+    text-align: uppercase;
+    font-size: 1.2em;
+    margin-top:-20px;
+}
+
+.title{
+    text-decoration: h2;
+}
+
+.body{
+    color:#666666;
+}
+
+.auteur{
+    padding-right: 10px;
+    border-right: #ebe8e8;
+    font-style: italic ;
+}
+
+.timestamp{
+    padding-left: 10px;
+    font-style: normal;
+    color: #666666;
+}
+
+article div {
+    margin-top: 50px;
+}
+
+.respimg{
+    width 50px;
+}
+
+#links{
+    background-color: blue;
+    float: left;
+    width: 50%;
+}
+#rechts{
+    background-color: red;
+    float: right;
+    margin-left:50%
+}
+
+#rechts .respimg{
+    width: 100px;
+}
+
+
+.container .respimg{
+    display: grid;
+    grid-template-colums: repeat (3,auto);
+    grid-template-rows: repeat (3,auto);
+}
+
+footer{
+    width: 100%;
+}
+
+#left{
+    float: left;
+    margin-right: 250px;
+}
+
+#right{
+    margin-left: 50%;
+    background-color: black;
+
+    color: white;
+    justify-content: left; /* horizontal center*/
+}

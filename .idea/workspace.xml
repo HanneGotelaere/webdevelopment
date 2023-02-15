@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -36,30 +37,41 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Gotelaere/OneDrive - Hogeschool VIVES/2022-2023/Web Development/Semester 1/Github/webdevelopment/labo_11/oefening_1",
+    "last_opened_file_path": "C:/Users/Gotelaere/OneDrive - Hogeschool VIVES/2022-2023/Semester 1/Web Development/Github/webdevelopment",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "fileTemplates",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\examen2022_2023\styles" />
+      <recent name="$PROJECT_DIR$/labo_8/cocktail" />
+      <recent name="$PROJECT_DIR$/labo_7" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_11\oefening_1" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_11\oefening_2" />
-      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_11\oefening_3" />
-      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_11\oefening_4" />
-      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_11\oefening_5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_11\oefening_6" />
-      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_11" />
-      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_11\oefening_1" />
-      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_11\oefening_3" />
-      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_11\oefening_2" />
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\examen2022_2023\images" />
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\herhalingsoefening\styles" />
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\herhalingsoefening" />
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\herhalingsoefening\bootstrap" />
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_7\nature_blog\images" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webdevelopment/herhalingsoefening/start.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.start.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -98,7 +110,19 @@
       <workItem from="1670400818863" duration="5526000" />
       <workItem from="1670604929866" duration="630000" />
       <workItem from="1671021593720" duration="670000" />
-      <workItem from="1671112176465" duration="5033000" />
+      <workItem from="1671112176465" duration="5802000" />
+      <workItem from="1671441984066" duration="603000" />
+      <workItem from="1671889629835" duration="3400000" />
+      <workItem from="1672047576973" duration="8412000" />
+      <workItem from="1672393700473" duration="2647000" />
+      <workItem from="1672926022206" duration="17016000" />
+      <workItem from="1673449008453" duration="11000" />
+      <workItem from="1673876495033" duration="15817000" />
+      <workItem from="1674027690914" duration="4003000" />
+      <workItem from="1674031813701" duration="4379000" />
+      <workItem from="1675849172536" duration="423000" />
+      <workItem from="1675849609101" duration="216000" />
+      <workItem from="1676454666836" duration="303000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,102 @@
+body {
+    background-image: url("../images/background.png");
+    width: 992px;
+    font-style: Arial;
+    font-size: 1.2em;
+    background-repeat: repeat (1);
+    margin: auto;
+    background-color: #00d4ef;
+}
+
+nav{
+    text-align: center;
+    grid-template-columns:no-repeat (3,auto;);
+    margin-top: 50px;
+    background-color: #c19cd6;
+}
+
+.code{
+    margin-bottom: 1em;
+}
+
+span:hover {
+    text-decoration: underline;
+    background-color: #c19cd6;
+}
+
+.contact {
+    margin-left: 815px;
+}
+
+.inhoudstafel{
+    border-inline: box;
+    float: left;
+    grid-auto-columns: 1/2;
+}
+
+h1{
+    font-size: 3.6em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 1,8em;
+}
+
+h3{
+    font-size: 1.1em;
+    background-color: #db97ff;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.midden{
+    grid-auto-columns: 2/11;
+}
+
+.programma{
+    background-repeat: no-repeat;
+    float: right;
+    width: 50px;
+    height: 50px;
+    grid-auto-columns: 11/12;
+    display: block;
+}
+
+.opmerking{
+    background-color: #db97ff;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-image:url("../images/note.svg");
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+}
+
+table{
+    border-style: dotted 1px #000000;
+}
+
+td:nth-of-type(even) img:first-of-type{
+    background-color: #bebebe;
+}
+td:nth-of-type(odd) img:first-of-type{
+    background-color: #672d87;
+}
+
+footer{
+    text-align: right;
+    background-color: #eeeee;
+    font-size: 0.75em;
+    margin-top: 25px;
+    border: 5px;
+    font-style: italic;
+}
+
+@section screen and (min-width: 992px) {
+    main {
+        grid-template-columns: repeat(12, auto);
+        grid-template-rows: repeat(auto-fill, auto);
+    }
+}
