@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Demonstratie slider</title>
+  <script type="text/javascript" charset="utf-8" src="scripts/script.js"></script>
+  <link rel="stylesheet" href="styles/style.css"/>
+</head>
+<body>
+<section>
+  <p>Open het console venster, versleep daarna de slider hieronder en kijk welke berichten er komen</p>
+  <input type="range" class="slider" value="50" min="0" max="100"/>
+</section>
+<section>
+  <p>Een gekleurd blokje :</p>
+  <div class="colorDemos" />
+</section>
+
+<p><b><em>Opdracht 2</em></b></p>
+<ol>
+  <li>
+    <b>Waar wordt de event listene gekoppeld aan de slider.</b>
+    <p>In je javascript bij de derde lijn: "let sliders = document.getElementsByClassName("slider");".</p>
+  </li>
+  <li>
+    <b>Waarom moeten we die op twee soorten events koppelen.</b>
+    <p>Omdat je hem kan aanpassen.</p>
+  </li>
+  <li>
+    <b>In de CSS file wordt nergens een rode kleur opgegeven, waar wordt dan wel de rode kleur van het blokje ingesteld?</b>
+    <p>In je javascript heb je dat moeten aangeven.</p>
+  </li>
+  <li>
+    <b>Waarom schrijven we telkens sliders[0] en colorDemos[0] en niet gewoon sliders of colorDemos?</b>
+    <p>Omdat er altijd maar 1 iets in de sliders of in colorDemos mag zitten.</p>
+  </li>
+</ol>
+<p><b><em>Opdracht 3</em></b></p>
+<ol>
+  <li>
+    <b>Hoeveel elementen zitter er in elke verzameling.</b>
+    <p>Bij elke verzameling 1</p>
+  </li>
+  <li>
+    <b>Kun je uit de HTML code afleiden waarom er dit precies zoveel zijn?</b>
+    <p>Neen je ziet het bij je javascript.</p>
+  </li>
+  <li>
+    <b>Klik op het driehoekje naast de sliders lokale variabele zodat je het eerste element kunt zien. Op welke index positie in de lijst staat dit element?</b>
+    <p>Op de eerste plaats.</p>
+  </li>
+</ol>
+</body>
+</html>
