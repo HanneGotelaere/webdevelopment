@@ -14,10 +14,10 @@ const valideerVoornaam = () => {
     let errVoornaam = document.getElementById("errVoornaam");
     let voornaam = txtVoornaam.trim();
     if (voornaam.length > 30) {
-        txtVoornaam.className="invalid"; // invalid class instellen
+        textVoornaam.className="invalid";
         errVoornaam.innerHTML = "max. 30 karakters";
     } else {
-        txtVoornaam.className=""; // alle classes verwijderen
+        textVoornaam.className="";
         errVoornaam.innerHTML = "";
     }
 };
@@ -30,8 +30,8 @@ const valideerGeboorteDatum = () =>{
     let jaar = datum.slice(6,10);
 
     console.log(datum.match(/-/g).length)
-    if(!dag.length == 2 || !maand.length == 2 || !jaar.length == 4 || datum.match(/-/g).length == 2){
-        errGeboortedatum.innerHTML = "Opgegeven geboortedatum voldoet niet aan het formaat: dd/mm/jjjj";
+    if(!dag.length === 2 || !maand.length === 2 || !jaar.length === 4 || datum.match(/-/g).length === 2){
+        errGeboortedatum.innerHTML = "De opgegeven geboortedatum voldoet niet aan het formaat: dd/mm/jjjj";
         datum.className = "invalid"
     }
 }
@@ -41,7 +41,7 @@ const valideerEmail = () =>{
     let errEmail = document.getElementById("email-error");
 
     if(!email.contains("@")){
-        errEmail.innerHTML = "Emailadress voldoet niet aan de vereisten"
+        errEmail.innerHTML = "Het emailadress voldoet niet aan de vereisten"
     }
 }
 
