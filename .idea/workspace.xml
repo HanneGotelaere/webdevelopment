@@ -14,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,11 +56,11 @@
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_11\oefening_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_16" />
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_16\a" />
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_16\new" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_15\spaties_met_functies\scripts" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_14\colorpicker\styles" />
-      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_13" />
-      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\examen2022_2023\images" />
-      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\herhalingsoefening\styles" />
     </key>
   </component>
   <component name="RunManager">
@@ -132,6 +132,7 @@
       <workItem from="1678104399537" duration="4000" />
       <workItem from="1678264628734" duration="5894000" />
       <workItem from="1678365987236" duration="2479000" />
+      <workItem from="1678868843517" duration="5914000" />
     </task>
     <servers />
   </component>
