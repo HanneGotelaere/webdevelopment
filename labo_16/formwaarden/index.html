@@ -2,9 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/style.css">
-    <script type="text/javascript" charset="utf-8"
-            src="scripts/code.js"></script>
     <title>Formwaarden</title>
 </head>
 <body>
@@ -15,16 +12,19 @@
 <p>Moedertaal</p>
 <p>Nederlands
     <input type="radio"
-           name="data-id"
-           value="waarde die wordt overgedragen"/></p>
+           name="moedertaal"
+           id="nederlands"
+           value="NL"/></p>
 <p>Frans
     <input type="radio"
-           name="data-id"
-           value="waarde die wordt overgedragen"/></p>
+           name="moedertaal"
+           id="frans"
+           value="Fr"/></p>
 <p>Engels
     <input type="radio"
-           name="data-id"
-           value="waarde die wordt overgedragen"/></p>
+           name="moedertaal"
+           id="engels"
+           value="ENG"/></p>
 <p>Favoriete buurland
     <input list="favoriete_buurland" name="buurland"/>
     <datalist id="favoriete_buurland">
@@ -33,13 +33,15 @@
         <option value="Duitsland">
 <p>Bestelling
     <input list="Bestelling" name="food"/>
-    <datalist id="Bestelling">
-        <option value="Aardappelen">
-        <option value="Brood">
-        <option value="Melk">
-        <option value="Biefstuk">
-        <option value="Chips">
-        <option value="Krant">
-<p><input type="Submit"/></p>
+    <datalist id="Bestelling"></datalist>
+        <option value="Aardappelen"></option>
+        <option value="Brood"></option>
+        <option value="Melk"></option>
+        <option value="Biefstuk"></option>
+        <option value="Chips"></option>
+        <option value="Krant"></option></p>
+<p><input id="submit">Toon resultaat</p>
+<script type="text/javascript" charset="utf-8"
+        src="scripts/script.js"></script>
 </body>
 </html>

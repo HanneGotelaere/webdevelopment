@@ -1,29 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/style.css">
-    <script type="text/javascript" charset="utf-8"
-            src="scripts/script.js"></script>
-    <title>Formvalidatie</title>
+    <title>Oefening</title>
+    <link rel="stylesheet" href="styles/styles.css"/>
 </head>
+
 <body>
-<p>First name
-<input type="text"
-       name="data-id"
-       value=""/></p>
-<p>Last name
-<input type="text"/>
 
-</p>
-<p>Birth date
-<input type="date"/></p>
-<p>e-mail
-<input type="text"
-
-/></p>
-<p>children
-<input
-/></p>
+<form onsubmit="return false">
+    <div class="line">
+        <label for="Voornaam">Voornaam:</label>
+        <input type="text" id="txtVoornaam" name="voornaam" maxlength="30">
+        <span id="Voornaam"></span><br>
+        <label for="familienaam">Familienaam:</label>
+        <input type="text" id="familienaam" name="familienaam" maxlength="50" required>
+        <span id="familienaam-error"></span><br>
+        <label for="geboortedatum">Geboortedatum:</label>
+        <input type="text" id="geboortedatum" name="geboortedatum" required>
+        <span id="geboortedatum-error"></span><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        <span id="email-error"></span><br>
+        <label for="aantal_kinderen">Aantal kinderen:</label>
+        <input type="number" id="aantal_kinderen" name="aantal_kinderen">
+        <span id="aantal_kinderen-error"></span><br>
+        <button type="submit" id="btnValideer">Verzenden</button>
+    </div>
+</form>
+<script type="text/javascript" charset="utf-8" src="scripts/script.js"></script>
 </body>
 </html>
