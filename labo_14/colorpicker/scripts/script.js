@@ -1,76 +1,94 @@
-const setup = () => {
-    changeColor();
-}
-
-const updateRed = () => {
+const initialize = () => {
     let sliders = document.getElementsByClassName("slider");
-    let valueR = sliders[0].value;
-    document.getElementById("red").innerHTML = "Red: " + valueR;
-    changeColor();
-}
-
-const updateGreen = () => {
-    let sliders = document.getElementsByClassName("slider");
-    let valueG = sliders[1].value;
-    document.getElementById("green").innerHTML = "Green: " + valueG;
-    changeColor();
-}
-
-const updateBlue = () => {
-    let sliders = document.getElementsByClassName("slider");
-    let valueB = sliders[2].value;
-    document.getElementById("blue").innerHTML = "Blue: " + valueB;
-    changeColor();
-}
-
-const changeColor = () =>{
-    let sliders = document.getElementsByClassName("slider");
-    let colorDemo = document.getElementsByClassName("colorDemos")
-
-    let valueR = sliders[0].value;
-    let valueG = sliders[1].value;
-    let valueB = sliders[2].value;
-
-    // we moeten zowel op het input als het change event reageren,
-    // zie http://stackoverflow.com/questions/18544890
-    sliders[0].addEventListener("change", updateRed);
-    sliders[0].addEventListener("input", updateRed);
-
-    sliders[1].addEventListener("change", updateGreen);
-    sliders[1].addEventListener("input", updateGreen);
-
-    sliders[2].addEventListener("change", updateBlue);
-    sliders[2].addEventListener("input", updateBlue);
-
-    document.getElementById("red").innerHTML = "Red: " + valueR;
-    document.getElementById("green").innerHTML = "Green: " + valueG;
-    document.getElementById("blue").innerHTML = "Blue: " + valueB;
-
-    colorDemo[0].style.backgroundColor = `rgb(${valueR}, ${valueG}, ${valueB})`;
-}
-
-window.addEventListener("load", setup);
-
-const setup = () => {
-    let sliders = document.getElementsByTagName("input");
-
-    for (i = 0;i<sliders.length;i++){
+    for (let i = 0; i < sliders.length; i++) {
+        // we moeten zowel op het input als het change event reageren,
+        // zie http://stackoverflow.com/questions/18544890
         sliders[i].addEventListener("change", update);
         sliders[i].addEventListener("input", update);
     }
+
+    let button = document.querySelector('button')
+    button.addEventListener('click',save)
+    update()
+
+}
+
+const getRGBString = () => {
+    updateLBL()
+    return `rgb(${getRedSlider()}, ${getGreenSlider()}, ${getBlueSlider()})`
+}
+
+const getRedSlider = () => {
+    return document.getElementById("sldRed").value;
+}
+
+const getGreenSlider = () => {
+    return document.getElementById("sldGreen").value;
+}
+
+const getBlueSlider = () => {
+    return document.getElementById("sldBlue").value;
+}
+
+const updateLBL = () => {
+    document.getElementById("lblRed").innerHTML=getRedSlider();
+    document.getElementById("lblGreen").innerHTML=getGreenSlider();
+    document.getElementById("lblBlue").innerHTML=getBlueSlider();
 }
 
 const update = () => {
-    let sliders = document.getElementsByTagName("input");
-    let tekst = document.getElementsByTagName("span")
-    let kleur = document.getElementById("kleur")
+    updateLBL()
+    main_swatch_invullen()
+}
 
-    tekst[0].innerText = sliders[0].value
-    tekst[1].innerText = sliders[1].value
-    tekst[2].innerText = sliders[2].value
-    let rgbTekst = `rgb(${sliders[0].value},${sliders[1].value},${sliders[2].value})`
-    kleur.style.backgroundColor = rgbTekst
+const main_swatch_invullen = (tekst) => {
+    let swatch=document.getElementById("swatch");
+    swatch.style.backgroundColor= getRGBString();
+}
+
+const updateSliderValues = (red, green,blue) => {
+    document.getElementById('sldRed').value = red
+    document.getElementById('sldGreen').value = green
+    document.getElementById('sldBlue').value = blue
+}
+
+const restore = (event) => {
+    let geklikteStyle = event.target.style.backgroundColor
+    let tekst = geklikteStyle.replaceAll(' ','')
+    tekst = tekst.slice(4,-1)
+    let red = tekst.slice(0,tekst.indexOf(','))
+    let green = tekst.slice(tekst.indexOf(',')+1,tekst.lastIndexOf(','))
+    let blue = tekst.slice(tekst.lastIndexOf(',')+1)
+    updateSliderValues(red,green,blue)
+    updateLBL()
+    main_swatch_invullen(geklikteStyle)
 
 }
 
-window.addEventListener("load", setup);
+const clear = (event) => {
+    let parent = event.target.parentElement
+    let saved = parent.parentElement
+    saved.removeChild(parent)
+    event.stopPropagation() // anders wordt restore opnieuw uitgevoerd aangezien deze door bubbling wordt uitgevoerd omdat de clear knop in een div staat (waar je zogezegd ook op geklikt hebt)
+}
+
+const createClearButton = () => {
+    let clear_button = document.createElement('button')
+    clear_button.innerText = 'X'
+    clear_button.addEventListener("click", clear)
+    clear_button.className = "clear_btn"
+    return clear_button;
+}
+
+const save = () => {
+    let new_div = document.createElement('div')
+    new_div.style.backgroundColor = getRGBString()
+    new_div.className = "swatch"
+    new_div.addEventListener("click", restore)
+    new_div.appendChild(createClearButton())
+
+    let div_saved = document.getElementById('saved')
+    div_saved.appendChild(new_div)
+}
+
+window.addEventListener("load", initialize);
