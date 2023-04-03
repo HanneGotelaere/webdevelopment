@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -57,11 +57,11 @@
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_11\oefening_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_18\hit_an_object\script" />
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_18" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_16" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_16\a" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_16\new" />
-      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_15\spaties_met_functies\scripts" />
-      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_14\colorpicker\styles" />
     </key>
   </component>
   <component name="RunManager">
@@ -137,6 +137,8 @@
       <workItem from="1679148745823" duration="6239000" />
       <workItem from="1679345911105" duration="1188000" />
       <workItem from="1679689637565" duration="6933000" />
+      <workItem from="1680263921476" duration="71000" />
+      <workItem from="1680516030791" duration="2102000" />
     </task>
     <servers />
   </component>

@@ -89,7 +89,4 @@ const save = () => {
     div_saved.appendChild(new_div)
 }
 
-
-
-
 window.addEventListener("load", initialize);

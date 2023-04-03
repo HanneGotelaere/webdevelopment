@@ -1,0 +1,25 @@
+.omdraaien{
+    transform: rotateY(90deg);
+    transition: transform .6s;
+}
+.terugdraaien{
+    transform: rotateY(-90deg);
+    transition: transform .6s;
+}
+#main_div{
+    width: 100%;
+    grid-gap: 5px;
+}
+.rij{
+    grid-gap: 5px;
+
+}
+img{
+    max-width: 95%;
+    max-height: 80%;
+}
+body{
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    overflow: hidden;
+}

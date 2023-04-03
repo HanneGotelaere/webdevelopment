@@ -1,0 +1,14 @@
+#playField{
+    height: 800px;
+    width: 800px;
+    border: solid black 2px;
+
+}
+#target {
+    position: absolute;
+}
+.start{
+    height: 10px;
+    display: grid;
+    grid-template-columns: 70px 150px;
+}
