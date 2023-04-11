@@ -47,7 +47,6 @@ const setup = () => {
             index++;
             div.appendChild(kaart);
         }
-
     }
 }
 
