@@ -13,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -57,11 +57,11 @@
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Web Development\Semester 1\Github\webdevelopment\labo_11\oefening_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_21\my_internet_start_page" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_20" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_19\contact_manager" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_19\date\scripts" />
       <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_18\hit_an_object\script" />
-      <recent name="C:\Users\Gotelaere\OneDrive - Hogeschool VIVES\2022-2023\Semester 1\Web Development\Github\webdevelopment\labo_18" />
     </key>
   </component>
   <component name="RunManager">
@@ -145,6 +145,7 @@
       <workItem from="1681896091023" duration="1638000" />
       <workItem from="1682493986982" duration="5779000" />
       <workItem from="1682762367610" duration="100000" />
+      <workItem from="1683395449889" duration="2885000" />
     </task>
     <servers />
   </component>
